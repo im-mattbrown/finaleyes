@@ -10,21 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170601005955) do
+ActiveRecord::Schema.define(version: 20170601012420) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "organization_infos", force: :cascade do |t|
-    t.string   "legal_entity"
-    t.string   "legal_entity_background"
-    t.string   "purchasing_entity"
-    t.string   "purchasing_entity_background_info"
-    t.string   "state"
-    t.string   "entity_type"
-    t.string   "affiliaitons"
-    t.string   "contact"
-    t.string   "string"
+    t.text     "legal_entity"
+    t.text     "legal_entity_background"
+    t.text     "purchasing_entity"
+    t.text     "purchasing_entity_background_info"
+    t.text     "state"
+    t.text     "entity_type"
+    t.text     "affiliaitons"
+    t.text     "contact"
     t.integer  "rfp_id"
     t.datetime "created_at",                        null: false
     t.datetime "updated_at",                        null: false
