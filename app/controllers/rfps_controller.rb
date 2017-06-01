@@ -1,0 +1,2 @@
+class RfpsController < ApplicationController
+end
