@@ -1,0 +1,2 @@
+class ContractTermsController < ApplicationController
+end

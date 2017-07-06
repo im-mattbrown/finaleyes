@@ -1,0 +1,2 @@
+class AdditionalDocumentsController < ApplicationController
+end

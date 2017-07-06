@@ -1,0 +1,2 @@
+class ProposerAndSellerInfoController < ApplicationController
+end

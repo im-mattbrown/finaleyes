@@ -1,0 +1,2 @@
+module ProposerAndSellerInfoHelper
+end

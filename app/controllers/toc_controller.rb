@@ -1,0 +1,2 @@
+class TocController < ApplicationController
+end

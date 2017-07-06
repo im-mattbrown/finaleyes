@@ -1,0 +1,2 @@
+class RfpDetailsController < ApplicationController
+end
